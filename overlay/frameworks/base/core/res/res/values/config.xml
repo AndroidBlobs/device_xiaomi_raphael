@@ -37,7 +37,7 @@
      <bool name="config_bluetooth_le_peripheral_mode_supported">false</bool>
 
     <!-- Whether camera shutter sound is forced or not  (country specific). -->
-     <bool name="config_camera_sound_forced">true</bool>
+     <bool name="config_camera_sound_forced">false</bool>
 
     <!-- Flag specifying whether VoLTE should be available for carrier: independent of
          carrier provisioning. If false: hard disabled. If true: then depends on carrier
@@ -50,7 +50,7 @@
      <bool name="config_carrier_wfc_ims_available">false</bool>
 
     <!-- Set to true to add links to Cell Broadcast app from Settings and MMS app. -->
-     <bool name="config_cellBroadcastAppLinks">false</bool>
+     <bool name="config_cellBroadcastAppLinks">true</bool>
 
     <!-- Flag specifying whether VoLTE is available on device -->
      <bool name="config_device_volte_available">true</bool>
@@ -340,7 +340,7 @@
 
     <!-- Configure wifi tcp buffersizes in the form:
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
-     <string name="config_wifi_tcp_buffers">524288,1048576,2097152,262144,524288,1048576</string>
+     <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,4194304</string>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
          in the config_autoBrightnessLevels array. As with config_screenBrightnessMinimumNits and
