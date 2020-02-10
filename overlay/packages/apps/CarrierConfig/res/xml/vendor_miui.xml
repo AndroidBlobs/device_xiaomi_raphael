@@ -49,6 +49,8 @@
         <string name="default_vm_number_string">+351962000000</string>
     </carrier_config>
     <carrier_config mcc="334" mnc="20">
+        <string name="default_vm_number_string">*86</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
         <boolean name="voicemail_notification_persistent_bool" value="true" />
         <boolean name="display_hd_audio_property_bool" value="false" />
         <boolean name="display_call_type_icon_bool" value="true" />
@@ -131,6 +133,19 @@
     </carrier_config>
     <carrier_config cust_region="hk_h3g" mcc="234" mnc="20">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="234" mnc="20">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="editable_wfc_mode_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="232" mnc="05,10,14">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="240" mnc="2">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="238" mnc="6">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="15">
         <string-array name="read_only_apn_types_string_array" num="0" />
@@ -289,6 +304,7 @@
             <item value="73009" />
         </string-array>
         <string name="default_vm_number_string">*20</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
         <int name="maxMessageSize" value="524288" />
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
@@ -318,6 +334,7 @@
     <carrier_config cust_region="cl_entel" mcc="730" mnc="1">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
+        <boolean name="display_call_type_icon_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="222" mnc="50">
         <string-array name="read_only_apn_types_string_array" num="0" />
@@ -424,13 +441,67 @@
     </carrier_config>
     <carrier_config mcc="732" mnc="101">
         <string name="default_vm_number_string">*123</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
         <int name="maxMessageSize" value="307200" />
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
     </carrier_config>
     <carrier_config mcc="716" mnc="10">
         <string name="default_vm_number_string">131</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
         <int name="maxMessageSize" value="1048576" />
         <boolean name="smsUsesSimpleCharactersOnly" value="true" />
+    </carrier_config>
+    <carrier_config mcc="708" mnc="1">
+        <string name="default_vm_number_string">*80</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="722" mnc="310">
+        <string name="default_vm_number_string">*2747</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="330" mnc="110">
+        <string name="default_vm_number_string">*86</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="714" mnc="3">
+        <string name="default_vm_number_string">*111</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="370" mnc="2">
+        <string name="default_vm_number_string">*99</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="748" mnc="10">
+        <string name="default_vm_number_string">*2747</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="744" mnc="2">
+        <string name="default_vm_number_string">*555</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="724" mnc="5">
+        <string name="default_vm_number_string">*100</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="704" mnc="1">
+        <string name="default_vm_number_string">*80</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="740" mnc="1">
+        <string name="default_vm_number_string">#99</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="706" mnc="1">
+        <string name="default_vm_number_string">*80</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="710" mnc="21">
+        <string name="default_vm_number_string">*80</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="712" mnc="3">
+        <string name="default_vm_number_string">*80</string>
+        <boolean name="editable_voicemail_number_setting_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="454" mnc="12,13">
         <boolean name="config_support_callbarring_over_ims" value="false" />
@@ -575,7 +646,7 @@
         <boolean name="config_show_mo_call_forward_toast" value="true" />
     </carrier_config>
     <carrier_config mcc="231" mnc="1">
-        <boolean name="carrier_default_wfc_ims_mode_int" value="2" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="219" mnc="1">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
@@ -595,9 +666,24 @@
         <boolean name="config_show_mo_call_forward_toast" value="true" />
     </carrier_config>
     <carrier_config mcc="226" mnc="10">
-        <boolean name="carrier_default_wfc_ims_mode_int" value="2" />
+        <int name="carrier_default_wfc_ims_mode_int" value="2" />
     </carrier_config>
     <carrier_config mcc="242" mnc="14">
         <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="240" mnc="7">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="238" mnc="20,30">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="244" mnc="91">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="248" mnc="1">
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="284" mnc="5">
+        <boolean name="config_support_callbarring_over_ims" value="false" />
     </carrier_config>
 </carrier_config_list>
