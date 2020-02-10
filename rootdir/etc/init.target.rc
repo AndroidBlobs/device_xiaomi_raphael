@@ -78,6 +78,7 @@ on fs
     chown system system /dev/tiload_node
     chmod 660 /dev/tiload_node
     mkdir /mnt/vendor/persist/stability 0755 system system
+    mkdir /mnt/vendor/persist/misys 0755 system system
     chown system system /dev/tfa_reg
     chown system system /dev/tfa_rw
     chown system system /dev/tfa_rpc
@@ -105,6 +106,7 @@ on post-fs-data
     mkdir /data/vendor/hbtp 0750 system system
     mkdir /data/vendor/nnhal 0700 system system
     mkdir /data/vendor/charge_logger 0771 system system
+    mkdir /data/vendor/misc/sla 0770 system system
     chmod 0644 /dev/elliptic0
     chmod 0644 /dev/elliptic1
     mkdir /data/vendor/misc/display 0771 system system

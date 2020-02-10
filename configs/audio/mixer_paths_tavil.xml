@@ -980,6 +980,10 @@
         <ctl name="SLIM_0_TX Channels" value="Four" />
     </path>
 
+    <path name="record-vol">
+        <ctl name="ADC1 Volume" value="20" />
+        <ctl name="ADC3 Volume" value="20" />
+    </path>
 
     <path name="handset-dmic-music">
         <path name="handset-dmic-dual-adc" />
