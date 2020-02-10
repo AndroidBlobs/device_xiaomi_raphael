@@ -1,3 +1,4 @@
+-app/SoterService/SoterService.apk
 -framework/WfdCommon.jar
 -priv-app/WfdService/WfdService.apk
 -product/app/QtiTelephonyService/QtiTelephonyService.apk

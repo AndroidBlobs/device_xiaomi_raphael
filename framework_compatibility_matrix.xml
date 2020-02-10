@@ -234,14 +234,6 @@
         </interface>
     </hal>
     <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.bluetooth_dun</name>
-        <version>1.0</version>
-        <interface>
-            <name>IBluetoothDunServer</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.bluetooth_sar</name>
         <version>1.0</version>
         <interface>
@@ -318,7 +310,6 @@
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.display.allocator</name>
         <version>1.0</version>
-        <version>3.0</version>
         <interface>
             <name>IQtiAllocator</name>
             <instance>default</instance>
@@ -335,7 +326,6 @@
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.display.mapper</name>
         <version>2.0</version>
-        <version>3.0</version>
         <interface>
             <name>IQtiMapper</name>
             <instance>default</instance>
@@ -426,14 +416,6 @@
         <version>1.0</version>
         <interface>
             <name>IQdutilsDisp</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl" optional="true">
-        <name>vendor.qti.hardware.qseecom</name>
-        <version>1.0</version>
-        <interface>
-            <name>IQSEECom</name>
             <instance>default</instance>
         </interface>
     </hal>
@@ -772,7 +754,7 @@
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.xiaomi.hardware.tidaservice</name>
-        <version>1.0-2</version>
+        <version>1.0-1</version>
         <interface>
             <name>ITidaService</name>
             <instance>default</instance>

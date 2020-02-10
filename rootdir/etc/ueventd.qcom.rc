@@ -133,7 +133,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /dev/seemplog             0660   system     system
 /dev/pft                  0660   system     drmrpc
 /dev/spcom                0660   system     system
-/dev/spss_utils           0660   system     system
 /dev/sp_kernel            0660   system     system
 /dev/sp_ssr               0660   system     system
 /dev/sp_keymaster         0660   system     system
@@ -267,8 +266,6 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/devices/platform/soc/a98000.i2c/i2c-2/2-0020/input/input*  secure_touch_enable   0660 system drmrpc
 /sys/devices/platform/soc/a84000.i2c/i2c-2/2-0020/input/input*  secure_touch          0440 system drmrpc
 /sys/devices/platform/soc/a84000.i2c/i2c-2/2-0020/input/input*  secure_touch_enable   0660 system drmrpc
-/sys/devices/platform/soc/c80000.i2c/i2c-2/2-00*                secure_touch         0440   system  drmrpc
-/sys/devices/platform/soc/c80000.i2c/i2c-2/2-00*                secure_touch_enable  0660   system  drmrpc
 
 # laser sensor access
 /sys/devices/virtual/input/input*                   enable_ps_sensor 0660  system   input
