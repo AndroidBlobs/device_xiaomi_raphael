@@ -12,12 +12,12 @@ PRODUCT_BRAND := xiaomi
 PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_NAME := lineage_raphael
-PRODUCT_MODEL := Mi 9T Pro
+PRODUCT_MODEL := Redmi K20 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := xiaomi
 TARGET_VENDOR_PRODUCT_NAME := raphael
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="raphael-user 10 QKQ1.190825.002 V11.0.2.0.QFKMIXM release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="raphael-user 10 QKQ1.190825.002 20.1.21 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := Xiaomi/raphael/raphael:10/QKQ1.190825.002/V11.0.2.0.QFKMIXM:user/release-keys
+BUILD_FINGERPRINT := Xiaomi/raphael/raphael:10/QKQ1.190825.002/20.1.21:user/release-keys

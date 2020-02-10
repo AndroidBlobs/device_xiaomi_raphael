@@ -52,7 +52,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>system</name>
         <indexMin>0</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
              <point>1,-4400</point>
              <point>33,-3200</point>
@@ -74,7 +74,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>ring</name>
         <indexMin>0</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET" ref="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
             <point>1,-3500</point>
@@ -129,7 +129,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>alarm</name>
         <indexMin>1</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET" ref="DEFAULT_DEVICE_CATEGORY_HEADSET_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
               <point>1,-3500</point>
@@ -146,7 +146,7 @@ volume index from 0 to 100.
     <volumeGroup>
         <name>notification</name>
         <indexMin>0</indexMin>
-        <indexMax>7</indexMax>
+        <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET" ref="HEADSET_SYSTEM_VOLUME_CURVE"/>
         <volume deviceCategory="DEVICE_CATEGORY_SPEAKER">
               <point>1,-3800</point>
@@ -161,7 +161,7 @@ volume index from 0 to 100.
 
     <volumeGroup>
         <name>bluetooth_sco</name>
-        <indexMin>0</indexMin>
+        <indexMin>1</indexMin>
         <indexMax>15</indexMax>
         <volume deviceCategory="DEVICE_CATEGORY_HEADSET">
             <point>0,-420</point>
