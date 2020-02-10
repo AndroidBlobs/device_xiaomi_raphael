@@ -71,16 +71,12 @@ if [ "$(getprop persist.vendor.usb.config)" == "" -a \
 	          "Dragon" | "SBC")
 	              setprop persist.vendor.usb.config diag,adb
 	          ;;
-	          "CEPHEUS" | "RAPHAEL" | "ANDROMEDA" | "ORION")
-		      if [ "$(getprop ro.boot.factorybuild)" == "1" ]; then
-			      setprop persist.vendor.usb.config diag,diag_mdm,qdss,qdss_mdm,serial_cdev,dpl,rmnet,adb
-		      else
-                              if [ -z "$debuggable" -o "$debuggable" = "1"  ]; then
-                                  setprop persist.vendor.usb.config adb
-                              else
-                                  setprop persist.vendor.usb.config none
-                              fi
-		      fi
+	          "CEPHEUS" | "RAPHAEL" | "ANDROMEDA")
+                      if [ -z "$debuggable" -o "$debuggable" = "1"  ]; then
+                         setprop persist.vendor.usb.config adb
+                      else
+                         setprop persist.vendor.usb.config none
+                      fi
 	          ;;
                   *)
 		  case "$soc_machine" in

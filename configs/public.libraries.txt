@@ -37,5 +37,3 @@ libhta_hexagon_runtime.so
 unnhal-acc-hta.so
 libalhLDC.so
 libalAILDC.so
-libsdk_sr.so
-st_sr_models.bin

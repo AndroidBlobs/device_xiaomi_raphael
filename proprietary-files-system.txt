@@ -1,3 +1,4 @@
+-app/SoterService/SoterService.apk
 -framework/WfdCommon.jar
 -priv-app/WfdService/WfdService.apk
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
@@ -29,10 +30,8 @@ etc/permissions/qti_permissions.xml
 etc/permissions/vendor-xiaomi-hardware-citsensorservice.xml
 etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml
-etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml
 etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.0-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.1-java-permission.xml
-etc/permissions/vendor.xiaomi.hardware.mtdservice-V1.2-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.vsimapp-V1.0-java-permission.xml
 etc/sysconfig/qti_whitelist.xml
 etc/wfdconfigsink.xml
@@ -42,11 +41,9 @@ framework/izat.xt.srv.jar
 framework/tcmclient.jar
 framework/vendor.xiaomi.hardware.misys-V1.0-java.jar
 framework/vendor.xiaomi.hardware.misys-V2.0-java.jar
-framework/vendor.xiaomi.hardware.misys.V3_0.jar
 framework/vendor.xiaomi.hardware.motor-V1.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar
 framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar
-framework/vendor.xiaomi.hardware.mtdservice-V1.2-java.jar
 framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib/fm_helium.so
@@ -81,7 +78,6 @@ lib/vendor.xiaomi.hardware.displayfeature@1.0.so
 lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 lib/vendor.xiaomi.hardware.misys@1.0.so
 lib/vendor.xiaomi.hardware.misys@2.0.so
-lib/vendor.xiaomi.hardware.misys@3.0.so
 lib/vendor.xiaomi.hardware.motor@1.0.so
 lib/vendor.xiaomi.hardware.touchfeature@1.0.so
 lib64/fm_helium.so
@@ -116,7 +112,6 @@ lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 lib64/vendor.xiaomi.hardware.misys@1.0.so
 lib64/vendor.xiaomi.hardware.misys@2.0.so
-lib64/vendor.xiaomi.hardware.misys@3.0.so
 lib64/vendor.xiaomi.hardware.motor@1.0.so
 lib64/vendor.xiaomi.hardware.touchfeature@1.0.so
 product/bin/dpmd

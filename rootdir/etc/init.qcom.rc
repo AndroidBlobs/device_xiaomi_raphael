@@ -542,12 +542,6 @@ on property:vendor.bluetooth.startbtlogger=true
 on property:vendor.bluetooth.startbtlogger=false
     stop vendor.bt_logger
 
-on property:vendor.bluetooth.startwdsdaemon=true
-    start vendor.bt_wdsdaemon
-
-on property:vendor.bluetooth.startwdsdaemon=false
-    stop vendor.bt_wdsdaemon
-
 on property:vendor.media.target.version=*
     setprop vendor.sys.media.target.version ${vendor.media.target.version}
 
@@ -616,13 +610,6 @@ service vendor.btsnoop /system/bin/btsnoop
    disabled
    oneshot
 
-service vendor.bt_wdsdaemon /system/vendor/bin/wdsdaemon -su
-    class late_start
-    user root
-    group bluetooth diag system wakelock
-    disabled
-    oneshot
-
 service vendor.bt_logger /system/bin/bt_logger
    user bluetooth
    group bluetooth net_bt_admin sdcard_rw sdcard_r media_rw
@@ -630,7 +617,7 @@ service vendor.bt_logger /system/bin/bt_logger
    disabled
    oneshot
 
-service ftmd /system/vendor/bin/ftmdaemon
+service ftmd /system/bin/logwrapper /system/bin/ftmdaemon
     class late_start
     user root
     group bluetooth net_bt_admin misc diag net_bt
